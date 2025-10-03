@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: fivetran_mysql_test
+    database: PC_FIVETRAN_DB
+    schema: RIDOY_RDS_MYSQL_TEST_FIVETRAN_TEST_DB
+    tables:
+      - name: customers
